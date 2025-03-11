@@ -5,6 +5,7 @@
 ## Apps without brew
 
 [oh-my-zsh](https://ohmyz.sh/#install)
+[vivaldi](https://vivaldi.com/download/)
 
 ## Brew
 
