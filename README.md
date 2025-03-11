@@ -2,6 +2,17 @@
 
 ## MacOS
 
+## Apps without brew
+
+[oh-my-zsh](https://ohmyz.sh/#install)
+
+## Brew
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install pipx
+```
+
 ### Rosetta
 
 ```
