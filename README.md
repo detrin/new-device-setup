@@ -2,8 +2,9 @@
 
 ## MacOS
 
-Customize modifier keys: Settings -> Customize modifier keys -> Switch control and command.
-Natural scrolling: Settings -> Natural scrolling -> Trun off.
+- Customize modifier keys: Settings -> Customize modifier keys -> Switch control and command.
+- Natural scrolling: Settings -> Natural scrolling -> Turn off.
+- Genereate ssh key for ssh/github https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 ## Apps without brew
 
