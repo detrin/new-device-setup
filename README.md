@@ -2,6 +2,8 @@
 
 ## MacOS
 
+Customize modifier keys: Settings -> Customize modifier keys -> Switch control and command
+
 ## Apps without brew
 
 [oh-my-zsh](https://ohmyz.sh/#install)
