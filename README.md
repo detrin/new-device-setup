@@ -6,11 +6,11 @@ Customize modifier keys: Settings -> Customize modifier keys -> Switch control a
 
 ## Apps without brew
 
-[oh-my-zsh](https://ohmyz.sh/#install)
-[vivaldi](https://vivaldi.com/download/)
-[chrome](https://www.google.com/chrome/)
-Amphetamine: go to appstore
-[docker](https://www.docker.com/)
+- [oh-my-zsh](https://ohmyz.sh/#install)
+- [vivaldi](https://vivaldi.com/download/)
+- [chrome](https://www.google.com/chrome/)
+- Amphetamine: go to appstore
+- [docker](https://www.docker.com/)
 
 ## Brew
 
