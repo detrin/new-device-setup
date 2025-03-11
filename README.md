@@ -2,7 +2,8 @@
 
 ## MacOS
 
-Customize modifier keys: Settings -> Customize modifier keys -> Switch control and command
+Customize modifier keys: Settings -> Customize modifier keys -> Switch control and command.
+Natural scrolling: Settings -> Natural scrolling -> Trun off.
 
 ## Apps without brew
 
