@@ -13,7 +13,7 @@
 - [chrome](https://www.google.com/chrome/)
 - Amphetamine: go to appstore
 - [docker](https://www.docker.com/)
-- [vscode](https://code.visualstudio.com/download)
+- [vscode](https://code.visualstudio.com/download) https://code.visualstudio.com/docs/setup/mac
 
 ## Brew
 
