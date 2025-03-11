@@ -11,6 +11,7 @@ Customize modifier keys: Settings -> Customize modifier keys -> Switch control a
 - [chrome](https://www.google.com/chrome/)
 - Amphetamine: go to appstore
 - [docker](https://www.docker.com/)
+- [vscode](https://code.visualstudio.com/download)
 
 ## Brew
 
