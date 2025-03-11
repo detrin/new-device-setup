@@ -21,6 +21,14 @@ Natural scrolling: Settings -> Natural scrolling -> Trun off.
 brew install pipx python@3.12 python@3.12 python@3.11
 ```
 
+## Other
+```
+pipx install poetry
+```
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
 ### Rosetta
 
 ```
