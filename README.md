@@ -8,6 +8,8 @@ Customize modifier keys: Settings -> Customize modifier keys -> Switch control a
 
 [oh-my-zsh](https://ohmyz.sh/#install)
 [vivaldi](https://vivaldi.com/download/)
+[chrome](https://www.google.com/chrome/)
+Amphetamine: go to appstore
 
 ## Brew
 
