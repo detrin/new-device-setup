@@ -10,6 +10,7 @@ Customize modifier keys: Settings -> Customize modifier keys -> Switch control a
 [vivaldi](https://vivaldi.com/download/)
 [chrome](https://www.google.com/chrome/)
 Amphetamine: go to appstore
+[docker](https://www.docker.com/)
 
 ## Brew
 
