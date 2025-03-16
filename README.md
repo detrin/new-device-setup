@@ -23,7 +23,7 @@ xcode-select --install
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install pipx python@3.12 python@3.12 python@3.11 wget curl htop
+brew install pipx python@3.12 python@3.12 python@3.11 wget curl htop openblas
 ```
 
 ## Other
