@@ -13,6 +13,7 @@ xcode-select --install
 ## Apps without brew
 
 - [oh-my-zsh](https://ohmyz.sh/#install)
+- powerlevel10k oh-my-zsh theme https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh
 - [vivaldi](https://vivaldi.com/download/)
 - [chrome](https://www.google.com/chrome/)
 - Amphetamine: go to appstore
