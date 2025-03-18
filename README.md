@@ -19,6 +19,7 @@ xcode-select --install
 - Amphetamine: go to appstore
 - [docker](https://www.docker.com/)
 - [vscode](https://code.visualstudio.com/download) https://code.visualstudio.com/docs/setup/mac
+- [rust](https://www.rust-lang.org/tools/install)
 
 ## Brew
 
