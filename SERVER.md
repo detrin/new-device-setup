@@ -67,7 +67,10 @@ sudo chmod +x /usr/local/bin/ufw-docker
 ufw-docker install
 systemctl restart ufw
 ```
+If you want to list the docker containers
 ```
 docker container ls
 ```
-
+```
+ufw-docker allow coolify-proxy 443/tcp
+```
