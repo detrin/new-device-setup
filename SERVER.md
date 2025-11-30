@@ -56,3 +56,13 @@ sudo ufw allow 443
 
 sudo ufw enable
 ```
+
+https://github.com/chaifeng/ufw-docker
+```
+sudo wget -O /usr/local/bin/ufw-docker \
+  https://github.com/chaifeng/ufw-docker/raw/master/ufw-docker
+sudo chmod +x /usr/local/bin/ufw-docker
+```
+```
+ufw-docker install
+```
