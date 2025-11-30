@@ -65,4 +65,9 @@ sudo chmod +x /usr/local/bin/ufw-docker
 ```
 ```
 ufw-docker install
+systemctl restart ufw
 ```
+```
+docker container ls
+```
+
