@@ -44,6 +44,7 @@ Install Coolify
 ```
 curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash
 ```
+Go to Settings -> General -> Domain and set the domain. Ten create DNAS A record that will point to this IP with the domain you want to use (or subdomain). Then go to Servers -> localhost -> start proxy.
 
 ## ufw
 ```
@@ -51,7 +52,6 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 
 sudo ufw allow 22
-sudo ufw allow 80
 sudo ufw allow 443
 
 sudo ufw enable
@@ -74,3 +74,4 @@ docker container ls
 ```
 ufw-docker allow coolify-proxy 443/tcp
 ```
+On contabo tcp/53 is open probably by the MV management tool.
