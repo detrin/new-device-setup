@@ -1,17 +1,29 @@
 # Server setup
 
 If you need to reinstall the server and you locally have to refresh the known hosts
-
-`ssh-keygen -R <IP>`
+```
+ssh-keygen -R <IP>
+```
 
 set hostname
-
-`hostnamectl set-hostname <server-name>`
+```
+hostnamectl set-hostname <server-name>
+```
 
 ## zsh
-`sudo apt install -y zsh`
 
-`chsh -s $(which zsh)`
+Install zsh
+```shell
+apt install -y zsh
+chsh -s $(which zsh)
+```
+
+Install Oh my zsh https://ohmyz.sh/#install
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+
 
 [https://github.com/romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh)
 
