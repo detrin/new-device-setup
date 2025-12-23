@@ -21,6 +21,7 @@ xcode-select --install
 - [vscode](https://code.visualstudio.com/download) https://code.visualstudio.com/docs/setup/mac
 - [rust](https://www.rust-lang.org/tools/install)
 - [pnpm](https://pnpm.io/installation)
+- [autin](https://atuin.sh) - Shell history supercharged
 
 ## Brew
 
