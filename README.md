@@ -21,13 +21,12 @@ xcode-select --install
 - [vscode](https://code.visualstudio.com/download) https://code.visualstudio.com/docs/setup/mac
 - [rust](https://www.rust-lang.org/tools/install)
 - [pnpm](https://pnpm.io/installation)
-- [autin](https://atuin.sh) - Shell history supercharged
 
 ## Brew
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install pipx python@3.12 python@3.12 python@3.11 wget curl htop openblas direnv ca-certificates pre-commit node ncdu
+brew install pipx python@3.13 python@3.12 python@3.11 wget curl htop openblas direnv ca-certificates pre-commit node ncdu atuin
 ```
 
 ## Other
