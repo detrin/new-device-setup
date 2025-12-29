@@ -40,7 +40,7 @@ nano /etc/motd
 
 Copy ssh public key
 ```
-ssh-copy-id root@<IP>
+echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPYNTPp+pKUIEMtU+Gb+iUF6742+IOTfQH8epkGH3ztuEPHbsQpQfu+x87pt7hzHlRuii5a4m8aXRsvSoLMTZQZ83IS7xVFu5HU0XMjazcbjqySw5kP3gMEtuMqCFaoMv2pDbxATYLK4ygXNaPZH2AzYnWZ53z6HbnsloRsNUlFbH8C3oIGw1ePiCZxRK4QhvPgVOtPLEgwfSPyMWB4ezEo91pyG57u1XkuDp0yBVo6KfLuQxc0oh1GARODomeZ7X8hyyIfEeCQ2mOmrS2l54Go+A6bg035b6j1552M5Qrhbs1Dvmuam5dXh+imUc+a+i7p/MHFtdimFJ1XFms1FfD hermanda@Daniels-Laptop.lan' >> .ssh/authorized_keys
 ```
 
 ## Coolify
