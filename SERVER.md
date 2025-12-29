@@ -64,8 +64,7 @@ sudo ufw enable
 
 https://github.com/chaifeng/ufw-docker
 ```
-sudo wget -O /usr/local/bin/ufw-docker \
-  https://github.com/chaifeng/ufw-docker/raw/master/ufw-docker
+sudo wget -O /usr/local/bin/ufw-docker https://github.com/chaifeng/ufw-docker/raw/master/ufw-docker
 sudo chmod +x /usr/local/bin/ufw-docker
 ```
 ```
@@ -80,3 +79,9 @@ docker container ls
 ufw-docker allow coolify-proxy 443/tcp
 ```
 On contabo tcp/53 is open probably by the MV management tool.
+
+```
+crontab -e
+# add at the last line
+ufw-docker allow coolify-proxy 443/tcp
+```
