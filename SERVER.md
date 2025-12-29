@@ -38,6 +38,11 @@ rm /etc/motd
 nano /etc/motd
 ```
 
+Copy ssh public key
+```
+ssh-copy-id root@<IP>
+```
+
 ## Coolify
 
 Install Coolify
