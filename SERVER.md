@@ -68,9 +68,9 @@ It is really convenient see https://tailscale.com/kb/1031/install-linux and http
 ```
 curl -fsSL https://tailscale.com/install.sh | sh; tailscale up
 ```
-authenticate via google then run
+authenticate via google then run on servers
 ```
-tailscale set --ssh
+tailscale up --advertise-tags=tag:servers --ssh
 ```
 to enable the ssh login via tailscale.
 
