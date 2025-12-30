@@ -63,6 +63,13 @@ systemctl restart sshd
 systemctl restart ssh
 ```
 
+## fail2ban
+```
+apt install fail2ban
+systemctl enable fail2ban
+systemctl start fail2ban 
+```
+
 ## tailscale
 It is really convenient see https://tailscale.com/kb/1031/install-linux and https://tailscale.com/kb/1193/tailscale-ssh
 ```
