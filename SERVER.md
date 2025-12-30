@@ -46,13 +46,17 @@ Disable the password login
 ```
 nano /etc/ssh/sshd_config
 ```
-change then the following row so that it matches the following
+change then the following rows
 ```
-PasswordAuthentication yes
+PasswordAuthentication no
+UsePAM no
 ```
 then restart the sshd service
 ```
+systemctl daemon-reload
 systemctl restart sshd
+# maybe you will need to run also 
+systemctl restart ssh.socket
 ```
 
 ## tailscale
