@@ -91,13 +91,13 @@ Go to Settings -> General -> Domain and set the domain. Ten create DNAS A record
 
 ## ufw
 ```
-sudo ufw default deny incoming
-sudo ufw default allow outgoing
+ufw default deny incoming
+ufw default allow outgoing
 
-sudo ufw allow 22
-sudo ufw allow 443
+ufw allow 22
+ufw allow 443
 
-sudo ufw enable
+ufw enable
 ```
 
 https://github.com/chaifeng/ufw-docker
