@@ -51,12 +51,16 @@ change then the following rows
 PasswordAuthentication no
 UsePAM no
 ```
+possibly you will need to delete the following on Ubuntu
+```
+rm /etc/ssh/sshd_config.d/50-cloud-init.conf
+```
 then restart the sshd service
 ```
 systemctl daemon-reload
 systemctl restart sshd
 # maybe you will need to run also 
-systemctl restart ssh.socket
+systemctl restart ssh
 ```
 
 ## tailscale
