@@ -10,6 +10,11 @@ set hostname
 hostnamectl set-hostname <server-name>
 ```
 
+## Ubuntu chore packages
+```
+apt install -y nmap
+```
+
 ## zsh
 
 Install zsh
@@ -29,6 +34,15 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-
 ```
 
 Open ~/.zshrc, find the line that sets ZSH_THEME, and change its value to `powerlevel10k/powerlevel10k`.
+
+## oh-my-tmux
+On linux usually tmux is installed by default, however, we can do a little bit better with oh-my-tmux https://github.com/gpakosz/.tmux
+```
+cd
+git clone --single-branch https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+```
 
 ## motd
 
