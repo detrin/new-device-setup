@@ -95,6 +95,15 @@ tailscale up --advertise-tags=tag:servers --ssh
 ```
 to enable the ssh login via tailscale.
 
+## swap
+```
+fallocate -l 8G /swapfile
+chmod 600 /swapfile
+mkswap /swapfile
+swapon /swapfile
+echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
+```
+
 ## Coolify
 
 Install Coolify
