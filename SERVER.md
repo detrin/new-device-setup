@@ -93,7 +93,7 @@ systemctl start fail2ban
 ## tailscale
 It is really convenient see https://tailscale.com/kb/1031/install-linux and https://tailscale.com/kb/1193/tailscale-ssh
 ```
-curl -fsSL https://tailscale.com/install.sh | sh; tailscale up
+curl -fsSL https://tailscale.com/install.sh | sh
 ```
 authenticate via google then run on servers
 ```
