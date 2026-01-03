@@ -152,3 +152,6 @@ crontab -e
 # add at the last line
 ufw-docker allow coolify-proxy 443/tcp
 ```
+
+## Docker
+https://docs.docker.com/engine/install/debian/
