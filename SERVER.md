@@ -153,5 +153,11 @@ crontab -e
 ufw-docker allow coolify-proxy 443/tcp
 ```
 
+After adding a new app you need to restart proxy and run
+```
+ufw-docker allow coolify-proxy 80/tcp
+ufw-docker allow coolify-proxy 443/tcp
+```
+
 ## Docker
 https://docs.docker.com/engine/install/debian/
