@@ -150,7 +150,7 @@ On contabo tcp/53 is open probably by the MV management tool.
 ```
 crontab -e
 # add at the last line
-ufw-docker allow coolify-proxy 443/tcp
+@reboot ufw-docker allow coolify-proxy 443/tcp
 ```
 
 After adding a new app you need to restart proxy and run
